@@ -18,6 +18,8 @@ to use Spring Boot Starter for auto setup
 
 ## Steps
 #### 1. mvn clean compile
+client-side stubs -> target/generated-sources/protobuf/java
+server-side code -> target/generated-sources/protobuf/grpc-java
 
 #### 2. Start Server
 
