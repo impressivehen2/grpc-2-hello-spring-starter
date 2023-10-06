@@ -4,7 +4,10 @@ By default, the compiler generates all the Java code in a single Java file. The 
 overrides this setting, meaning everything will be generated in individual files.
 */
 option java_multiple_files = true;
-package com.impressivehen.common;
+option java_package = "com.impressivehen.common";
+option java_outer_classname = "HelloServiceProto";
+package com.impressivehen.common.proto;
+option optimize_for = SPEED;
 
 message HelloRequest {
   /*
