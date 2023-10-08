@@ -1,9 +1,9 @@
 package com.impressivehen.client.service;
 
 
-import com.impressivehen.common.HelloRequest;
-import com.impressivehen.common.HelloResponse;
-import com.impressivehen.common.HelloServiceGrpc;
+import com.impressivehen.model.HelloRequest;
+import com.impressivehen.model.HelloResponse;
+import com.impressivehen.model.HelloServiceGrpc;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import net.devh.boot.grpc.client.inject.GrpcClient;

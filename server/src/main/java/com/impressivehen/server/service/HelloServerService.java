@@ -1,8 +1,8 @@
 package com.impressivehen.server.service;
 
-import com.impressivehen.common.HelloRequest;
-import com.impressivehen.common.HelloResponse;
-import com.impressivehen.common.HelloServiceGrpc;
+import com.impressivehen.model.HelloRequest;
+import com.impressivehen.model.HelloResponse;
+import com.impressivehen.model.HelloServiceGrpc;
 import io.grpc.stub.StreamObserver;
 import net.devh.boot.grpc.server.service.GrpcService;
 
