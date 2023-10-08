@@ -22,9 +22,9 @@ not able import common built files
 ## Steps
 #### 1. mvn clean install
 
-#### 2. Start Server
+#### 2. File -> Project Structure -> module -> add generated-sources as Sources
 
-#### 3. Start Client
+#### 3. Start Server, Start Client
 
 ## Knowledge
 #### (a) io.grpc.netty.NegotiationType
